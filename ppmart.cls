@@ -32,4 +32,5 @@
 % Zbiór podstawowych pakietów
 \RequirePackage{amsmath}
 \RequirePackage{amsthm}
+\RequirePackage{amssymb}
 \RequirePackage{graphicx}
