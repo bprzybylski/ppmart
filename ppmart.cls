@@ -24,10 +24,14 @@
     \setstretch{1}
 	\noindent\LARGE\@title\par
 	\vspace{.5cm}\normalsize
-	\noindent\@author{} {\color{gray}@\@date}
+	\noindent\@author{} {\color{gray}@ \@date}
 	\vspace{1cm}
 	\setstretch{1.15}
 }
+
+\RequirePackage{lineno}
+\DeclareOption{lineno}{\linenumbers}
+\ProcessOptions\relax
 
 % Zbiór podstawowych pakietów
 \RequirePackage{amsmath}
