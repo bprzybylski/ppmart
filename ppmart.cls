@@ -29,7 +29,7 @@
 	\setstretch{1.15}
 }
 
-\RequirePackage[displaymath,mathlines]{lineno}
+\RequirePackage[mathlines]{lineno}
 \newcommand*\patchAmsMathEnvironmentForLineno[1]{%
   \expandafter\let\csname old#1\expandafter\endcsname\csname #1\endcsname
   \expandafter\let\csname oldend#1\expandafter\endcsname\csname end#1\endcsname
